@@ -10,9 +10,10 @@
 		FE01EA8B1ECDA5E900351E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EA8A1ECDA5E900351E1A /* AppDelegate.swift */; };
 		FE01EA8D1ECDA5E900351E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EA8C1ECDA5E900351E1A /* ViewController.swift */; };
 		FE01EA901ECDA5E900351E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE01EA8E1ECDA5E900351E1A /* Main.storyboard */; };
-		FE01EA921ECDA5E900351E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE01EA911ECDA5E900351E1A /* Assets.xcassets */; };
 		FE01EA951ECDA5E900351E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE01EA931ECDA5E900351E1A /* LaunchScreen.storyboard */; };
 		FE01EAA01ECDA5E900351E1A /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EA9F1ECDA5E900351E1A /* FoodTrackerTests.swift */; };
+		FE726DF81ECF7D0D007B4269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE726DF71ECF7D0D007B4269 /* Assets.xcassets */; };
+		FEC006461ECF69210077C0CE /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC006451ECF69210077C0CE /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +31,13 @@
 		FE01EA8A1ECDA5E900351E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE01EA8C1ECDA5E900351E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE01EA8F1ECDA5E900351E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE01EA911ECDA5E900351E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE01EA941ECDA5E900351E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE01EA961ECDA5E900351E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE01EA9B1ECDA5E900351E1A /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE01EA9F1ECDA5E900351E1A /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		FE01EAA11ECDA5E900351E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE726DF71ECF7D0D007B4269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC006451ECF69210077C0CE /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +81,11 @@
 			children = (
 				FE01EA8A1ECDA5E900351E1A /* AppDelegate.swift */,
 				FE01EA8C1ECDA5E900351E1A /* ViewController.swift */,
+				FEC006451ECF69210077C0CE /* RatingControl.swift */,
 				FE01EA8E1ECDA5E900351E1A /* Main.storyboard */,
-				FE01EA911ECDA5E900351E1A /* Assets.xcassets */,
 				FE01EA931ECDA5E900351E1A /* LaunchScreen.storyboard */,
 				FE01EA961ECDA5E900351E1A /* Info.plist */,
+				FE726DF71ECF7D0D007B4269 /* Assets.xcassets */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -180,7 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE01EA951ECDA5E900351E1A /* LaunchScreen.storyboard in Resources */,
-				FE01EA921ECDA5E900351E1A /* Assets.xcassets in Resources */,
+				FE726DF81ECF7D0D007B4269 /* Assets.xcassets in Resources */,
 				FE01EA901ECDA5E900351E1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE01EA8D1ECDA5E900351E1A /* ViewController.swift in Sources */,
+				FEC006461ECF69210077C0CE /* RatingControl.swift in Sources */,
 				FE01EA8B1ECDA5E900351E1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
